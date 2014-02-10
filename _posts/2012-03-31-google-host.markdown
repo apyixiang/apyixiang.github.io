@@ -4,6 +4,7 @@ title: "google各种服务被封,hosts设置"
 date: 2012-03-31 04:59
 comments: true
 categories: fun
+tags: [google,gfw]
 ---
 
 #GoogleCode

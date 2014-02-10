@@ -4,6 +4,7 @@ title: "发现了Dropbox的替代品:花生壳+ssh+rsync+淘汰的笔记本"
 date: 2012-03-31 04:42
 comments: true
 categories: fun
+tags: [dropbox,ssh,rsync]
 ---
 家里的宽带基本都是包年或者包月,不利用浪费.测试的时候发现直接rsync会导致域名解析失败,不知道为啥,所以需要通过ssh.
 

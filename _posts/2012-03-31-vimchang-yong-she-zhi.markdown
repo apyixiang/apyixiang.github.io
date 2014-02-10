@@ -3,7 +3,7 @@ layout: post
 title: "vim常用设置"
 date: 2012-03-31 04:45
 comments: true
-categories: fun
+categories: dev
 ---
 编辑/etc/vimrc文件,下面需要哪个就加进去
 

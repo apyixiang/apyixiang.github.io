@@ -3,7 +3,8 @@ layout: post
 title: "linux环境下保证ruby单进程运行的方法（适用于所有语言）"
 date: 2012-03-31 04:47
 comments: true
-categories: ruby
+categories: dev
+tags: [ruby,crond,linux]
 ---
 目的是为了不停的用crond触发程序运行，而保持这个程序始终只有一个进程执行。
 因为，我用crond每分钟触发执行一次。即使程序若异常则退出，可以用crond再次保持其运行。若程序运行时间很长，会造成系统同时执行N个进程，造成内存溢出或数据错乱。

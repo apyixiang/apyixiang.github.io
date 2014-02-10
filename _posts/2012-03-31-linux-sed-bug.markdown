@@ -3,7 +3,8 @@ layout: post
 title: "linux sed替换utf8字符的bug"
 date: 2012-03-31 04:48
 comments: true
-categories: linux
+categories: dev
+tags: [unicode,utf-8,linux]
 ---
 经过上次的研究，郁闷的碰上了sed的一个bug，
 UTF8字符 9FA5~9FFF 在sed里做正则替换会报告

@@ -3,7 +3,8 @@ layout: post
 title: "大量数据快速导入mysql的方法"
 date: 2012-03-31 04:51
 comments: true
-categories: dev
+categories: database
+tags: [mysql]
 ---
 当你有几千万行数据，N多个文件，需要导入mysql对应表的时候，可以试试这样做
 1.假设数据表只有id和string两个字段,其中string可以做一个unique索引，避免重复

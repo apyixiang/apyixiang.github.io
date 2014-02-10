@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "activerecord 序列化"
-date: 2012-02-10 01:55
+date: 2014-02-10 01:55
 comments: true
 categories: ruby
 ---

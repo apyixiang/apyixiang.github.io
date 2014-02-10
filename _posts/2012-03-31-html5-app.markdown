@@ -1,0 +1,15 @@
+---
+layout: post
+title: "精彩的html5网站"
+date: 2012-03-31 04:50
+comments: true
+categories: fun
+---
+西部牛仔题材。鼠标一直拖到右边就可以了。看完一节在右侧点鼠标。好像可以改情节。
+http://www.nevermindthebullets.com/strip.html#1-1
+
+输入你家地址，它会自动生成MV
+http://www.thewildernessdowntown.com/
+
+HTML5的模拟真实自然景观的网站
+http://www.effectgames.com/demos/canvascycle/

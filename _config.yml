@@ -2,6 +2,7 @@ title:            seoaqua's blog
 description:      'about SEO,Ruby,Linux,Mac and stuff'
 disqus_shortname:
 #Your site's domain goes here. Leave localhost server or blank when working locally.
+# url:              http://localhost:4000
 url:              http://seoaqua.com
 
 # Owner/author information
@@ -48,7 +49,7 @@ links:
 timezone:    Asia/Shanghai
 future:      true
 pygments:    true
-markdown:    kramdown
+markdown:    redcarpet
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:categories/:title/

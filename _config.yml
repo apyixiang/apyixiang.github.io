@@ -35,6 +35,8 @@ bing_verify:
 # Links to include in top navigation
 # For external links add external: true
 links:
+  - title: tags
+    url: /tags/
   - title: my github
     url: http://github.com/seoaqua/
     external: true

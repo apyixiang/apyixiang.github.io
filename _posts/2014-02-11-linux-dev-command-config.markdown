@@ -26,7 +26,7 @@ awk '{if(NR==1)sub(/^\xef\xbb\xbf/,"");print}' inputfile > outputfile
 查看网络使用情况
 =============
 
-```zsh
+```bash
 lsof -i
 netstat -lptu
 netstat -tulpn

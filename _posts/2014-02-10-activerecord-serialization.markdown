@@ -4,6 +4,7 @@ title: "activerecord 序列化"
 date: 2014-02-10 01:55
 comments: true
 categories: ruby
+tags: [ruby,activerecord,serialization]
 ---
 
 序列化:

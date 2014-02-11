@@ -23,7 +23,7 @@ end
 
 执行 ruby, 并使用shell统计订单数量
 
-```shell
+```bash
 ruby export_order_by_minute.rb > time
 sort time|uniq -c > sort_time #还需做一些简单的人工处理
 ```

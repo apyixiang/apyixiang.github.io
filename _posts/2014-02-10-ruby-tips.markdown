@@ -1,14 +1,24 @@
 ---
 layout: post
-title: "ruby map小技巧"
+title: "ruby 小技巧"
 date: 2014-02-10 03:10
 comments: true
 categories: dev
-tags: [ruby]
+tags: [ruby,tips]
 ---
+
+ruby map简写
 
 ```ruby
 threads.map(&:join)
 #等同于
 threads.map{|thread|thread.join}
+```
+
+
+zerofill补零
+
+```ruby
+"4".rjust(2, '0') #04
+"%04d" % 5 #0005
 ```

@@ -3,7 +3,8 @@ layout: post
 title: "处理http中压缩内容"
 date: 2014-02-10 01:59
 comments: true
-categories: ruby
+categories: dev
+tags: [ruby,http]
 ---
 
 {% highlight ruby %}

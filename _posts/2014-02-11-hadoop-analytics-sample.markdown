@@ -88,18 +88,16 @@ for line in sys.stdin:
     elif TableName == 'FlowStatiData':
       referer_pairs = urlparse(referer)
       referer_query_pairs = parse_qs(referer_pairs.query)
-      # CurrentQueryString = query_pairs['CurrentQueryString'][0]
-      # current_query_pairs = parse_qs(urllib2.unquote(CurrentQueryString))
-      if 'srcid' not in referer_query_pairs or 'semtcid' not in referer_query_pairs or referer_query_pairs['srcid'][0] != srcid:
+      if 'srcid' not in referer_query_pairs or 'uuid' not in referer_query_pairs or referer_query_pairs['srcid'][0] != srcid:
         continue
-      value = "type=d&semtcid="+referer_query_pairs['semtcid'][0]
+      value = "type=d&uuid="+referer_query_pairs['uuid'][0]
     else:
       continue
   else:
     uri_query_pairs = parse_qs(uri_query)
-    if 'srcid' not in uri_query_pairs or 'semtcid' not in uri_query_pairs or uri_query_pairs['srcid'][0] != srcid:
+    if 'srcid' not in uri_query_pairs or 'uuid' not in uri_query_pairs or uri_query_pairs['srcid'][0] != srcid:
       continue
-    value = "type=d&semtcid="+uri_query_pairs['semtcid'][0]
+    value = "type=d&uuid="+uri_query_pairs['uuid'][0]
   if 'key' in locals():
     print key+"\t"+value
 ```
@@ -123,18 +121,18 @@ for line in sys.stdin:
     last_cookie_date_time,last_value = last_line.split("\t")
     last_cookie, last_date,last_time = last_cookie_date_time.split(' ')
     last_value_pairs  = parse_qs(last_value)
-    if 'semtcid' in last_value_pairs:
-      last_value_semtcid = last_value_pairs['semtcid'][0].strip()
+    if 'uuid' in last_value_pairs:
+      last_value_uuid = last_value_pairs['uuid'][0].strip()
     else:
-      last_value_semtcid = 'xxxxxxxxxxx'
+      last_value_uuid = 'xxxxxxxxxxx'
 
     if 'type' in value_pairs and value_pairs['type'][0].strip() == 'o':
       if last_cookie == cookie:
-        print last_value_semtcid+"\t"+"1"
+        print last_value_uuid+"\t"+"1"
       else:
-        print last_value_semtcid+"\t"+"0"
+        print last_value_uuid+"\t"+"0"
     else:
-      print last_value_semtcid+"\t"+"0"
+      print last_value_uuid+"\t"+"0"
 
   last_line = line
 ```

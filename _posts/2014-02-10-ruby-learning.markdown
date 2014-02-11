@@ -7,6 +7,11 @@ categories: dev
 tags: [ruby,learning]
 ---
 
+https://www.udacity.com
+
+http://www.codecademy.com/
+
+http://rubymonk.com/
 
 ruby编程最佳建议
 

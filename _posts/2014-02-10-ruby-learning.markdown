@@ -20,3 +20,6 @@ http://ruby-china.org/wiki/coding-style
 rubyconf 视频
 
 http://ruby-china.org/topics/15749
+
+提bug的方法
+http://www.chiark.greenend.org.uk/%7Esgtatham/bugs-cn.html

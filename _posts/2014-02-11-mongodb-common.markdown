@@ -15,10 +15,12 @@ db.createCollection("noautoid", { autoIndexId: false })
 
 
 http://stackoverflow.com/questions/12378320/mongodb-inserting-doc-without-id-field
+
 By default, all regular collections automatically insert an _id field if it is absent.
 
 However, this behavior can be changed when you create the collection, by setting explicitely the autoIndexId parameter to false.
 
+```
 > db.createCollection("noautoid", { autoIndexId: false })
 { "ok" : 1 }
 Then you can insert documents without _id field. But some drivers, like the javascript one (and so the mongo console), add the _id field by themselves. In the mongo console, you can do this:
@@ -27,3 +29,4 @@ Then you can insert documents without _id field. But some drivers, like the java
 > db.noautoid.find()
 { "name" : "Jack" }
 More information about the autoIndexId field can be found in the MongoDB documentation. This page is about Capped Collections but the autoIndexId field is common to both regular and capped collections.
+```

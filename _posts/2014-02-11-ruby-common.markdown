@@ -134,3 +134,10 @@ ranks.each_with_index do |rank,index|
 end
 ```
 
+
+在home目录总安装gem
+===============
+
+```bash
+gem install xx.gem --user-install
+```

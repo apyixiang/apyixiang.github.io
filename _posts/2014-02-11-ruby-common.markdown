@@ -134,6 +134,13 @@ ranks.each_with_index do |rank,index|
 end
 ```
 
+用\uFFFF的形式打印字符串
+===================
+
+```ruby
+string.unpack('U*').map{ |i| "\\u" + i.to_s(16).rjust(4, '0') }.join
+```
+
 
 在home目录总安装gem
 ===============

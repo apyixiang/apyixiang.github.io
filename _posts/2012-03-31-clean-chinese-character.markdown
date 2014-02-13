@@ -10,12 +10,18 @@ tags: [ruby,unicode,utf8]
 
 其中cjk是chinese japan korean的意思，其中ideographs是“象形文字”的意思
 
-因此我就取其中u4E00 - u9FFF,CJK unified ideographs: Han characters used in China, Japan, Korea, Taiwan, and Vietnam
+因此我就取其中u4E00 - u9FFF 这个范围(CJK unified ideographs: Han characters used in China, Japan, Korea, Taiwan, and Vietnam)
 
 ruby的代码这样写
 
 ```ruby
-puts line.gsub(/[^u4E00-u9FFF]/,'')
+puts line.gsub(/[^\u4E00-\u9FFF]/,'')
+```
+
+注意如果还需要保留英文和数字,记得排除掉:
+
+```ruby
+puts line.gsub(/[^\w0-9\u4E00-\u9FFF]/,'')
 ```
 
 其他语言也差不多吧

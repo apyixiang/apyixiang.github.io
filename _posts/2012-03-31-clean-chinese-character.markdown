@@ -3,16 +3,26 @@ layout: post
 title: "清理非中文字符的方法"
 date: 2012-03-31 04:51
 comments: true
-categories: code
-tags: [ruby,unicode,utf-8]
+categories: dev
+tags: [ruby,unicode,utf8]
 ---
-总之就是用正则替换，察看utf-8编码范围，其中cjk是chinese japan korean的意思，其中ideographs是“象形文字”的意思
+总之就是用正则替换，察看utf-8编码范围
+
+其中cjk是chinese japan korean的意思，其中ideographs是“象形文字”的意思
+
 因此我就取其中u4E00 - u9FFF,CJK unified ideographs: Han characters used in China, Japan, Korea, Taiwan, and Vietnam
+
 ruby的代码这样写
+
+```ruby
 puts line.gsub(/[^u4E00-u9FFF]/,'')
+```
+
 其他语言也差不多吧
 
 完整的编码范围描述：
+
+```
 u0000 - u1FFF,Alphabets
 u0020 - u007F,Basic Latin
 u0080 - u00FF,Latin-1 supplement
@@ -86,3 +96,4 @@ uFE50 - uFE6F,Small form variants
 uFE70 - uFEFE,Arabic presentation forms-B
 uFF00 - uFFEF,Halfwidth and fullwidth forms
 uFFF0 - uFFFF,Special
+```

@@ -9,9 +9,6 @@ tags: [common]
 
 #文档
 
-####提bug的方法
-http://www.chiark.greenend.org.uk/%7Esgtatham/bugs-cn.html
-
 ####sitemap协议
 http://sitemaps.org
 
@@ -21,10 +18,14 @@ https://tools.ietf.org/html/rfc2616
 ####markdown语法参考
 https://help.github.com/articles/github-flavored-markdown
 
-####markdown编辑器,支持github风格
-http://www.zybuluo.com/
 
-#开发
+#常识
+
+####提bug的方法
+http://www.chiark.greenend.org.uk/%7Esgtatham/bugs-cn.html
+
+####eager loading
+http://stackoverflow.com/questions/1299374/what-is-eager-loading
 
 ####变量命名方式
 

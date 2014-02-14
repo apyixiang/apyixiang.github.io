@@ -148,3 +148,18 @@ string.unpack('U*').map{ |i| "\\u" + i.to_s(16).rjust(4, '0') }.join
 ```bash
 gem install xx.gem --user-install
 ```
+
+进制转换
+==============
+
+10进制
+
+```ruby
+"%u" % 1000 #1000
+```
+
+16进制
+
+```ruby
+"%x" % 1000 #3e8
+```

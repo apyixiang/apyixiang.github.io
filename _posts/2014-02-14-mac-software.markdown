@@ -1,3 +1,4 @@
+
 ---
 layout: post
 title: "Mac系统常用软件"
@@ -8,79 +9,103 @@ tags: [mac]
 ---
 
 编辑器:
-http://www.sublimetext.com/‎
-https://sublime.wbond.net (sublime扩展包管理)
+
+	http://www.sublimetext.com/‎
+
+	https://sublime.wbond.net (sublime扩展包管理)
 
 mysql/mariadb管理:
-http://www.sequelpro.com
+
+	http://www.sequelpro.com
 
 mongodb管理:
-http://mongohub.todayclose.com
-https://github.com/fotonauts/MongoHub-Mac (mongohub升级版)
+
+	http://mongohub.todayclose.com
+	https://github.com/fotonauts/MongoHub-Mac (mongohub升级版)
 
 redis管理:
-http://redisdesktop.com/
-http://inductionapp.com/
+
+	http://redisdesktop.com/
+	http://inductionapp.com/
 
 terminal:
-http://www.iterm2.com
+
+	http://www.iterm2.com
 
 FTP/SFTP:
-http://cyberduck.io
-http://fuse.sourceforge.net/sshfs.html
+
+	http://cyberduck.io
+	http://fuse.sourceforge.net/sshfs.html
 
 软件安装:
-http://brew.sh
+
+	http://brew.sh
 
 git界面管理:
-http://mac.github.com
+
+	http://mac.github.com
 
 blog搭建:
-http://jekyllrb.com
+
+	http://jekyllrb.com
 
 markdown编辑:
-http://www.zybuluo.com
-http://mouapp.com
+
+	http://www.zybuluo.com
+	http://mouapp.com
 
 输入法:
-http://pinyin.sogou.com/mac/?r=pinyin‎
+
+	http://pinyin.sogou.com/mac/?r=pinyin‎
 
 Email客户端:
-http://sparrowmailapp.com/
-http://www.foxmail.com/mac/
+
+	http://sparrowmailapp.com/
+	http://www.foxmail.com/mac/
 
 下载:
-http://mac.xunlei.com/‎
+
+	http://mac.xunlei.com/‎
 
 软件商店:
-http://mac.xunlei.com/‎ (Thunder Store)
+
+	http://mac.xunlei.com/‎ (Thunder Store)
 
 解压缩:
-http://www.kekaosx.com/‎
+
+	http://www.kekaosx.com/‎
 
 IRC客户端:
-http://limechat.net/mac/‎
+
+	http://limechat.net/mac/‎
 
 网盘:
-https://pan.baidu.com/download‎
+
+	https://pan.baidu.com/download‎
 
 音乐:
-http://www.xiami.com/apps/mac‎
+
+	http://www.xiami.com/apps/mac‎
 
 视频播放:
-http://mplayerx.org/
+
+	http://mplayerx.org/
 
 在线视频:
-http://tv.sohu.com/app/
-http://download.pptv.com/computer/mac/‎
-http://app.iqiyi.com/mac/player/‎
+
+	http://tv.sohu.com/app/
+	http://download.pptv.com/computer/mac/‎
+	http://app.iqiyi.com/mac/player/‎
 
 游戏:
-http://us.battle.net/hearthstone/en/‎
-https://www.heroesofnewerth.com/
+
+	http://us.battle.net/hearthstone/en/‎
+	https://www.heroesofnewerth.com/
 
 新浪微博客户端:
-http://weiboformac.sinaapp.com/‎
+
+	http://weiboformac.sinaapp.com/‎
 
 VOIP:
-http://www.skype.com/zh-Hans/download-skype/‎
+
+	http://www.skype.com/zh-Hans/download-skype/‎

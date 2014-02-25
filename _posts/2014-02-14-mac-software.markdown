@@ -7,104 +7,124 @@ categories: dev
 tags: [mac]
 ---
 
+GUI软件
+=================
+
 编辑器:
 
-	http://www.sublimetext.com/‎
+	[sublimetext](http://www.sublimetext.com/‎)
 
-	https://sublime.wbond.net (sublime扩展包管理)
+	[sublime扩展包管理](https://sublime.wbond.net)
 
 mysql/mariadb管理:
 
-	http://www.sequelpro.com
+	[sequelpro](http://www.sequelpro.com)
 
 mongodb管理:
 
-	http://mongohub.todayclose.com
-	https://github.com/fotonauts/MongoHub-Mac (mongohub升级版)
+	[mongohub](http://mongohub.todayclose.com)
+	[mongohub改进版](https://github.com/fotonauts/MongoHub-Mac)
 
 redis管理:
 
-	http://redisdesktop.com/
-	http://inductionapp.com/
+	[redisdesktop](http://redisdesktop.com/)
+	[inductionapp](http://inductionapp.com/)
 
 terminal:
 
-	http://www.iterm2.com
+	[iterm2](http://www.iterm2.com)
 
 FTP/SFTP:
 
-	http://cyberduck.io
-	http://fuse.sourceforge.net/sshfs.html
+	[cyberduck](http://cyberduck.io)
 
-软件安装:
+git管理:
 
-	http://brew.sh
+	[github for mac](http://mac.github.com)
 
-git界面管理:
 
-	http://mac.github.com
-
-blog搭建:
-
-	http://jekyllrb.com
 
 markdown编辑:
 
-	http://www.zybuluo.com
-	http://mouapp.com
+	[作业部落](http://www.zybuluo.com)
+	[mou](http://mouapp.com)
 
 输入法:
 
-	http://pinyin.sogou.com/mac/?r=pinyin‎
+	[搜狗输入法](http://pinyin.sogou.com/mac/?r=pinyin‎)
 
 Email客户端:
 
-	http://sparrowmailapp.com/
-	http://www.foxmail.com/mac/
+	[sparrow](http://sparrowmailapp.com/)
+	[foxmail](http://www.foxmail.com/mac/)
 
 下载:
 
-	http://mac.xunlei.com/‎
+	[迅雷](http://mac.xunlei.com/‎)
 
 软件商店:
 
-	http://mac.xunlei.com/‎ (Thunder Store)
+	[迅雷](http://mac.xunlei.com/‎ "Thunder Store") 
 
 解压缩:
 
-	http://www.kekaosx.com/‎
+	[keka](http://www.kekaosx.com/‎)
 
 IRC客户端:
 
-	http://limechat.net/mac/‎
+	[limechat](http://limechat.net/mac/‎)
 
 网盘:
 
-	https://pan.baidu.com/download‎
+	[百度网盘](https://pan.baidu.com/download‎)
 
 音乐:
 
-	http://www.xiami.com/apps/mac‎
+	[虾米](http://www.xiami.com/apps/mac‎)
 
 视频播放:
 
-	http://mplayerx.org/
+	[mplayerx]http://mplayerx.org/
 
 在线视频:
 
-	http://tv.sohu.com/app/
-	http://download.pptv.com/computer/mac/‎
-	http://app.iqiyi.com/mac/player/‎
+	[搜狐视频](http://tv.sohu.com/app/)
+	[pptv](http://download.pptv.com/computer/mac/‎)
+	[爱奇艺](http://app.iqiyi.com/mac/player/‎)
 
 游戏:
 
-	http://us.battle.net/hearthstone/en/‎
-	https://www.heroesofnewerth.com/
+	[炉石传说]http://us.battle.net/hearthstone/en/‎
+	[HON]https://www.heroesofnewerth.com/
 
 新浪微博客户端:
 
-	http://weiboformac.sinaapp.com/‎
+	[weibo for mac](http://weiboformac.sinaapp.com/‎)
 
 VOIP:
 
-	http://www.skype.com/zh-Hans/download-skype/‎
+	[skype](http://www.skype.com/zh-Hans/download-skype/‎)
+
+
+非GUI软件
+=============
+
+软件商店:
+
+	[homebrew](http://brew.sh)
+
+blog搭建:
+
+	[jekyllrb](http://jekyllrb.com)
+
+FTP/SFTP:
+
+	[sshfs](http://fuse.sourceforge.net/sshfs.html) 
+
+```bash
+brew install sshfs
+```
+
+X11:
+
+	[xquartz](http://xquartz.macosforge.org/)

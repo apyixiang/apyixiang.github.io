@@ -57,11 +57,11 @@ Email客户端:
 
 下载:
 
-* [迅雷](http://mac.xunlei.com/‎)
+* [迅雷](http://mac.xunlei.com)
 
 软件商店:
 
-* [迅雷](http://mac.xunlei.com/‎ "Thunder Store") 
+* [迅雷Thunder Store](http://mac.xunlei.com) 
 
 解压缩:
 

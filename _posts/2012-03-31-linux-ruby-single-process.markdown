@@ -6,10 +6,17 @@ comments: true
 categories: dev
 tags: [ruby,crond,linux,process]
 ---
-目的是为了不停的用crond触发程序运行，而保持这个程序始终只有一个进程执行。
+
+做单进程目的是为了不停的用crond触发程序运行，而保持这个程序始终只有一个进程执行。
 因为，我用crond每分钟触发执行一次。即使程序若异常则退出，可以用crond再次保持其运行。若程序运行时间很长，会造成系统同时执行N个进程，造成内存溢出或数据错乱。
 
-方法如下：
+最简单的方法是直接使用pidfile
+require 'pidfile'
+PidFile.new
+他的原理是在系统临时目录中(/tmp)创建一个空文件, 比如/tmp/program_name_342534636.lock
+这个文件存在则表示程序在运行, 运行完毕会删除这个文件. 从而保证进程执行的进程唯一性.
+
+比较原始的方法是直接指定进程名称, 每次执行之前查看是否存在此进程.
 
 ```ruby
 $0='the_unique_name_you_give_to_the_process'

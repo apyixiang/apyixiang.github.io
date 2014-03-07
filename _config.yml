@@ -54,7 +54,7 @@ pygments:    true
 markdown:    redcarpet
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title/
+permalink:   /:title/
 
 # Amount of post to show on home page
 paginate: 5

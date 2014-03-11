@@ -11,6 +11,6 @@ share: true
 ---
 
 * SEO Director /SEM Tech Director in elong.com
-* Ruby programmer
-* MVT junior manager
-* Hadoop statistics junior programmer
+* Ruby Full Stack Programmer
+* MVT Juniro Manager
+* Hadoop Analysis Junior Programmer

@@ -4,6 +4,7 @@ title: "防止搜索引擎收录注入的办法"
 date: 2012-03-31 05:07
 comments: true
 categories: seo
+tags:[SEO,injection]
 ---
 
 搜索引擎收录注入是我自己瞎编的名词。

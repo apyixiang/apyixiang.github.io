@@ -4,6 +4,7 @@ title: "利用vim的宏录制功能批量给超链接增加nofollow的小技巧"
 date: 2012-03-31 04:43
 comments: true
 categories: seo
+tags: [SEO,nofollow,rel,vim]
 ---
 由于中国的页面无用链接普遍较高,在修改页面模板的时候经常要批量增加rel="nofollow"属性,这时候可以利用vim做到这点.(这是我第一次用到record功能,李炜你丫要是敢给我不期望的评论,必将遭到我的诅咒!!!)
 

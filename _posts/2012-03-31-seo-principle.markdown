@@ -4,6 +4,7 @@ title: "SEO原则"
 date: 2012-03-31 05:18
 comments: true
 categories: seo
+tags:[SEO]
 ---
 <div id="page" lang="zh" dir="ltr">
 <div id="content" lang="zh" dir="ltr">
@@ -133,42 +134,7 @@ categories: seo
 
 14、代码符合xhtml标准
 
-&nbsp;
 
--===============以下来自经纬同学=============
-1、dns轮训数量
-
-2、与设定无差异的图片尺寸
-
-3、合并脚本
-
-4、在固定尺寸下可再压缩的图片
-
-5、css是否放在头部
-
-6、同一文件统一的路径
-
-7、静态池的cookies
-
-8、压缩传输
-
-9、压缩css
-
-10、压缩html
-
-11、压缩javascript
-
-12、较少的dom节点（500，1000，1500，&gt;2000）
-
-13、没有404错误
-
-14、较少的并发链接
-
-15、css不适用expression
-
-16、css不适用filter滤镜
-
-17、favicon可缓存
 
 </div>
 </div>

@@ -4,6 +4,7 @@ title: "多版本网页的地址管理原则"
 date: 2012-03-31 05:01
 comments: true
 categories: seo
+tags:[SEO,URL]
 ---
 
 无论是离线产品还是在线产品，都有版本的概念，比如webqq出过1.0，2.0和3.0版，离线软件的版本多的数不过来。

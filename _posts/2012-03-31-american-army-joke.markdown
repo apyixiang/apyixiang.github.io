@@ -4,6 +4,7 @@ title: "美军通话实录[转]"
 date: 2012-03-31 05:14
 comments: true
 categories: fun
+tags: [joke]
 ---
 肯定是网友杜撰的：
 

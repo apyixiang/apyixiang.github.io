@@ -4,6 +4,7 @@ title: "ajax页面无法被收录怎么办？"
 date: 2012-03-31 05:02
 comments: true
 categories: seo
+tags: [SEO]
 ---
 
 seo最基本的要求是页面可以被收录，本文适用于页面主要内容使用ajax方式加载的项目，目的只是告诉你如何向前端人员解释你的意图，即使不考虑SEO，也要慎用ajax。

@@ -4,6 +4,7 @@ title: "统计用户行为的正确做法"
 date: 2012-03-31 05:10
 comments: true
 categories: seo
+tags: [stastistics,user,url,referer]
 ---
 
 判断用户来源一般有4个途径：

@@ -4,6 +4,7 @@ title: "如何判断搜索引擎爬虫的来源"
 date: 2012-03-31 05:11
 comments: true
 categories: seo
+tags: [SEO,spider]
 ---
 
 判断来源一般有4个途径：

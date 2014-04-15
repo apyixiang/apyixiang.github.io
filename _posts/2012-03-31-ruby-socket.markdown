@@ -4,6 +4,7 @@ title: "用ruby写一个简单的socket通信"
 date: 2012-03-31 04:53
 comments: true
 categories: ruby
+tags: [ruby,socket]
 ---
 服务器端
 

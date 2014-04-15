@@ -4,6 +4,7 @@ title: "unicode之utf-8编码的表示方法"
 date: 2012-03-31 04:48
 comments: true
 categories: code
+tags:[utf8,unicode]
 ---
 麻痹的，为了这一个问题搞了一个礼拜才算明白
 utf8编码一般有两种表示方法，u1234或者x12x34x56

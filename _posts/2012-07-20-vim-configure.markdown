@@ -4,6 +4,7 @@ title: "vim configure"
 date: 2012-07-20 18:48
 comments: true
 categories: linux
+tags:[vim,configuration]
 ---
 
 安装方法：

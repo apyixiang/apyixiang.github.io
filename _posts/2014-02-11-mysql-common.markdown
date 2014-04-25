@@ -9,6 +9,23 @@ tags: [mysql]
 
 如果对数据精确性要求不高,可以设置读写不互锁
 =====================
+
+非事务型引擎(Myisam/Aria)
+----------------
+```mysql
+SET GLOBAL concurrent_insert = 2; #NEVER=0,AUTO=1,ALWAYS=2
+```
+这个设置完需要定期优化表,否则会造成大量碎片.
+
+查看参数状态:
+```mysql
+show variables like 'concurrent_insert';
+```
+
+
+事务型引擎(Innodb)
+----------------
+
 ```mysql
 SET GLOBAL TRANSACTION ISOLATION LEVEL READ UNCOMMITTED ;
 ```

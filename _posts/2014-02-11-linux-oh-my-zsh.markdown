@@ -18,3 +18,9 @@ chsh -s $(which zsh)
 ```
 curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
 ```
+
+使用ctrl+r查找历史命令
+=====================
+```bash
+bindkey "^R" history-incremental-search-backward
+```

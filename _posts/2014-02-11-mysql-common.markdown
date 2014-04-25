@@ -7,6 +7,16 @@ categories: dev
 tags: [mysql]
 ---
 
+如果对数据精确性要求不高,可以设置读写不互锁
+=====================
+```mysql
+SET GLOBAL TRANSACTION ISOLATION LEVEL READ UNCOMMITTED ;
+```
+查看参数状态:
+```mysql
+SELECT @@global.tx_isolation
+```
+
 用mysql主从同步做测试环境
 ======================
 既想使用主库数据, 又想随意update/delete/insert. 做一个省心的测试环境

@@ -94,7 +94,9 @@ terminal:
 
 FTP/SFTP:
 
+* [transmit](https://panic.com/transmit/) (推荐)
 * [cyberduck](http://cyberduck.io)
+* [flow](http://fivedetails.com/flow/)
 
 git管理:
 

@@ -9,6 +9,7 @@ tags: [openssl,ruby]
 
 当下载/编译安装完最新的ruby2.1后,安装某些gem时需要openssl.
 基本的步骤是:
+
 ```bash
 cd {ruby源码路径}/ext/openssl
 ruby extconf.rb

@@ -71,4 +71,5 @@ skip_name_resolve
 常用debug方式
 ```mysql
 SET GLOBAL SQL_SLAVE_SKIP_COUNTER = 1;  #忽略slave上的一条错误
+SET GLOBAL expire_logs_days = 30; #binlog只保留30天
 ```

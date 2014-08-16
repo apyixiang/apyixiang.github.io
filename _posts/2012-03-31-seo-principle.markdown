@@ -4,7 +4,7 @@ title: "SEO原则"
 date: 2012-03-31 05:18
 comments: true
 categories: seo
-tags:[SEO]
+tags: [SEO]
 ---
 
 

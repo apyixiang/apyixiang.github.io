@@ -4,7 +4,7 @@ title: "seo book"
 date: 2012-04-11 00:51
 comments: true
 categories: seo
-tags:[SEO,book]
+tags: [SEO,book]
 ---
 
 信息检索领域相关资料 (A Guide to Information Retrieval)

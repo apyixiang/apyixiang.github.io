@@ -4,7 +4,7 @@ title: "周期性专题SEO原理"
 date: 2014-04-15 15:01
 comments: true
 categories: seo
-tags:[SEO]
+tags: [SEO]
 ---
 
 时效性搜索基本都是突发的,如果不提前1年做优化,临时抱佛脚就来不及了

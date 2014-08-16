@@ -4,7 +4,7 @@ title: "seo system"
 date: 2012-07-07 17:16
 comments: true
 categories: seo
-tags:[SEO,system]
+tags: [SEO,system]
 ---
 
 基于ruby开发的"针对搜索引擎体验的网站分析系统 - seo oriented website optimization analysis system",简称"SEO系统"

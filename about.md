@@ -10,7 +10,10 @@ image:
 share: true
 ---
 
-* SEO Director /SEM Tech Director in elong.com
-* Ruby Full Stack Programmer
-* MVT Juniro Manager
-* Hadoop Analysis Junior Programmer
+* SEO Director / SEM/SEO System Development Director in elong.com
+* Technical Oriented Product Manager
+* Ruby Backend Full Stack Programmer
+* Resposible for ASO(Appstore Search Optimization)
+* MVT Junior Manager
+* Hadoop Stream Junior Programmer
+* Take a look at the profile on Linkedin for the details

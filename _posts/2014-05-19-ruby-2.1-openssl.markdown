@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "ruby 2.1 安装openssl扩展"
-date: 2015-05-19 13:01
+date: 2014-05-19 13:01
 comments: true
 categories: dev
 tags: [openssl,ruby]

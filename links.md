@@ -9,4 +9,11 @@ image:
 share: true
 ---
 
-[fbsender](http://fbsender.github.io)
+技术类的:
+
+[fbsender](http://fbsender.github.io) 关于SEO, SEM, Ruby, 羽毛球
+
+
+其他:
+
+[羽毛球比赛规则](http://www.vxixi.com/)

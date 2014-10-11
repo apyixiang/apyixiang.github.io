@@ -17,3 +17,5 @@ share: true
 * MVT Junior Manager
 * Hadoop Stream Junior Programmer
 * Take a look at the profile on Linkedin for the details
+
+* [Friend links](/links/)

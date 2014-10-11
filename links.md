@@ -1,7 +1,8 @@
 ---
 layout: page
 permalink: /links/
-title: "Friend Links"
+title: Friend Links
+tags: [links]
 image:
   feature: abstract-5.jpg
   credit: dargadgetz

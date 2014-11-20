@@ -20,8 +20,3 @@ share: true
 ------------
 
 [羽毛球比赛规则](http://www.vxixi.com/)
-
-
-[厦门旅游攻略](http://trip.elong.com/xiamen/)
-[厦门旅游攻略](http://trip.elong.com/xmen/)
-[北京酒店预订](http://hotel.elong.com/beijing/)

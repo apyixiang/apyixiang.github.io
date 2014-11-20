@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "艺龙在线营销部研发工程师职位描述"
+title: "艺龙 在线营销部研发工程师"
 date: 2014-11-20 12:46
 comments: true
 categories: work
@@ -63,3 +63,12 @@ tags: [work]
 
 * 最好熟悉http, socket, html, xml, map-reduce, 多线程, git, github
 * 最好使用Mac, 公司提供Mac本
+
+我的联系方式:
+
+QQ/微信: 628552 (建议加QQ, 微信不谈工作)
+我的博客 http://seoaqua.com
+github账户 http://github.com/seoaqua
+队员作品 http://github.com/elong/ (待补充)
+微博 http://weibo.com/seoaqua
+公司邮箱 charles.liu@corp.elong.com

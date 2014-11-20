@@ -1,11 +1,11 @@
-<script src="{{ site.url }}/assets/js/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="{{ site.url }}/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 <script src="{{ site.url }}/assets/js/scripts.min.js"></script>
 {% if site.google_analytics %}
 <!-- Asynchronous Google Analytics snippet -->
 <script>
   var _gaq = _gaq || [];
-  var pluginUrl =
+  var pluginUrl = 
  '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
   _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
   _gaq.push(['_setAccount', '{{ site.google_analytics }}']);
@@ -18,22 +18,4 @@
   })();
 </script>
 {% endif %}
-<!-- {% if page.comments %}{% include disqus_comments.html %}{% endif %} -->
-
-<!--高速版，加载速度快，使用前需测试页面的兼容性-->
-<!-- <div id="SOHUCS"></div>
-<script>
-  (function(){
-    var appid = 'cyrtgXTBD',
-    conf = 'prod_0c1f5911b2146dbb7cc49f5d0119bd8f';
-    var doc = document,
-    s = doc.createElement('script'),
-    h = doc.getElementsByTagName('head')[0] || doc.head || doc.documentElement;
-    s.type = 'text/javascript';
-    s.charset = 'utf-8';
-    s.src =  'http://assets.changyan.sohu.com/upload/changyan.js?conf='+ conf +'&appid=' + appid;
-    h.insertBefore(s,h.firstChild);
-    window.SCS_NO_IFRAME = true;
-  })()
-</script>
- -->
+{% if page.comments %}{% include disqus_comments.html %}{% endif %}

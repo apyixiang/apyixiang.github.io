@@ -1,0 +1,23 @@
+---
+layout: post
+title: "使用云梯VPN的同时不影响公司局域网192.168.*.*网段的方法"
+date: 2015-01-26 15:55
+comments: true
+categories: work
+tags: [VPN]
+---
+
+以下是引用官方客服的答案:
+
+10.10.x.x 和 10.20.x.x 这两个是 VPN 网段，所以不可以添加进智能加速，否则 VPN 会无法正常工作。
+
+下面是以 192.168.x.x 为例的添加方法：
+在下载下来的智能加速文件夹中，找到 data 文件夹：
+
+ip-up 末尾加一行：
+route add 192.168.0.0/16 "${OLDGW}"
+
+ip-down 末尾加一行：
+route delete 192.168.0.0/16 ${OLDGW}
+
+添加完毕后，断开 VPN，再安装一遍 speed_up，最后重启系统，就可以了。

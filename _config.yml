@@ -37,8 +37,11 @@ bing_verify:
 links:
   - title: tags
     url: /tags/
-  - title: my github
+  - title: my github projects
     url: http://github.com/seoaqua/
+    external: true
+  - title: my team's github projects
+    url: http://github.com/warriors-of-the-night/
     external: true
   - title: my douban
     url: http://www.douban.com/people/seoaqua/

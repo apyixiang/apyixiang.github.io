@@ -69,6 +69,6 @@ tags: [work]
 * QQ/微信: 628552 (建议加QQ, 微信不谈工作)
 * 我的博客 http://seoaqua.com
 * github账户 http://github.com/seoaqua
-* 队员作品 http://github.com/elong/ (待补充)
+* 队员作品 http://github.com/warriors-of-the-night/ (待补充)
 * 微博 http://weibo.com/seoaqua
 * 公司邮箱 charles.liu@corp.elong.com

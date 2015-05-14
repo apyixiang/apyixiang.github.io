@@ -27,17 +27,19 @@ SEO最严重的问题,往往不是SEO问题,而是产品问题,或技术问题.�
 
 从SEO的角度看,某网站的URL是这样的,符合"思维导图"层次的:
 
-1.   首页: www.example.com/
-1.   首页-频道1: www.example.com/channel/
-1.   首页-频道1-维度1: www.example.com/channel/abc/
-1.   首页-频道1-维度1-维度2: www.example.com/channel/abc/xyz/
-1.   首页-频道1-详细页: www.example.com/channel/item12345/
+*   首页: www.example.com/
+*   首页-频道1: www.example.com/channel/
+*   首页-频道1-维度1: www.example.com/channel/abc/
+*   首页-频道1-维度1-维度2: www.example.com/channel/abc/xyz/
+*   首页-频道1-详细页: www.example.com/channel/item12345/
 
 从产品,开发,测试的角度看URL可能是这样无序的:
-* www.example.com/channel/?category=abc&brand=xyz&tracking=other_website
-* www.example.com/channel/?item=12345
+
+*   www.example.com/channel/?category=abc&brand=xyz&tracking=other_website
+*   www.example.com/channel/?item=12345
 
 如果下一版改成这样也没问题的:
+
 www.example.com/?channel=123&category=abc&brand=def&tracking=other_website
 
 如果没有清晰的规则定义,几乎是无法知道现在的网站还是不是你优化过的那个样子的.

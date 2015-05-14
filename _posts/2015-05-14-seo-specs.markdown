@@ -26,15 +26,15 @@ SEO最严重的问题,往往不是SEO问题,而是产品问题,或技术问题.�
 我这里说的不是<meta>, 而是一切SEO相关的,有规律的(最好是可以用正则表达的),可量化的信息.包括:标题,关键词,描述,H1,等等.
 
 从SEO的角度看,某网站的URL是这样的,符合"思维导图"层次的:
-首页: www.example.com/
-首页-频道1: www.example.com/channel/
-首页-频道1-维度1: www.example.com/channel/abc/
-首页-频道1-维度1-维度2: www.example.com/channel/abc/xyz/
-首页-频道1-详细页: www.example.com/channel/item12345/
+* 首页: www.example.com/
+* 首页-频道1: www.example.com/channel/
+* 首页-频道1-维度1: www.example.com/channel/abc/
+* 首页-频道1-维度1-维度2: www.example.com/channel/abc/xyz/
+* 首页-频道1-详细页: www.example.com/channel/item12345/
 
 从产品,开发,测试的角度看URL可能是这样无序的:
-www.example.com/channel/?category=abc&brand=xyz&tracking=other_website
-www.example.com/channel/?item=12345
+* www.example.com/channel/?category=abc&brand=xyz&tracking=other_website
+* www.example.com/channel/?item=12345
 
 如果下一版改成这样也没问题的:
 www.example.com/?channel=123&category=abc&brand=def&tracking=other_website

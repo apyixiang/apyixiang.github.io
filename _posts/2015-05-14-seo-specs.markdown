@@ -59,4 +59,4 @@ www.example.com/?channel=123&category=abc&brand=def&tracking=other_website
 有了"元信息"的定义.做蜘蛛日志监控易如反掌.在百度举办的活动上,有不少的站长会向百度工作人员提出一些根本无法回答的问题: 收录掉了, 抓取掉了, 收录不及时,等等.而从来不会说,"我的某某类型页面每天抓取量多少,其中response200的有多少,平均响应时间是多少,response301的......response4xx的......response5xx的......但是最近收录/抓取掉了"
 
 附图仅展示一些字段给大家做参考
-![蜘蛛日志监控报告]({{ site.url }}/images/seo-specs-pattern.png)
+![蜘蛛日志监控报告]({{ site.url }}/images/seo-specs-log.png)

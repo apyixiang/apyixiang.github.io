@@ -26,11 +26,11 @@ SEO最严重的问题,往往不是SEO问题,而是产品问题,或技术问题.�
 我这里说的不是<meta>, 而是一切SEO相关的,有规律的(最好是可以用正则表达的),可量化的信息.包括:标题,关键词,描述,H1,等等.
 
 从SEO的角度看,某网站的URL是这样的,符合"思维导图"层次的:
-* 首页: www.example.com/
-* 首页-频道1: www.example.com/channel/
-* 首页-频道1-维度1: www.example.com/channel/abc/
-* 首页-频道1-维度1-维度2: www.example.com/channel/abc/xyz/
-* 首页-频道1-详细页: www.example.com/channel/item12345/
+1.   首页: www.example.com/
+1.   首页-频道1: www.example.com/channel/
+1.   首页-频道1-维度1: www.example.com/channel/abc/
+1.   首页-频道1-维度1-维度2: www.example.com/channel/abc/xyz/
+1.   首页-频道1-详细页: www.example.com/channel/item12345/
 
 从产品,开发,测试的角度看URL可能是这样无序的:
 * www.example.com/channel/?category=abc&brand=xyz&tracking=other_website
@@ -59,9 +59,9 @@ www.example.com/?channel=123&category=abc&brand=def&tracking=other_website
 有了"元信息"的定义.做蜘蛛日志监控易如反掌.在百度举办的活动上,有不少的站长会向百度工作人员提出一些根本无法回答的问题: 收录掉了, 抓取掉了, 收录不及时,等等.而从来不会说,"我的某某类型页面每天抓取量多少,其中response200的有多少,平均响应时间是多少,response301的......response4xx的......response5xx的......但是最近收录/抓取掉了"
 
 亲身经历的一些现象:
-1. 全站85%的访问,response code都是301.
-2. 蜘蛛抓取量的50%都是抓异步请求(ajax,iframe)的URL.
-3. 某些类别的页面平均响应时间超过10秒/次.
+1.   全站85%的访问,response code都是301.
+1.   蜘蛛抓取量的50%都是抓异步请求(ajax,iframe)的URL.
+1.   某些类别的页面平均响应时间超过10秒/次.
 
 附图仅展示一些字段给大家做参考
 ![蜘蛛日志监控报告]({{ site.url }}/images/seo-specs-log.png)

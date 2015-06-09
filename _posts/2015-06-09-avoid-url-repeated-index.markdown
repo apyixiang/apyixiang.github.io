@@ -15,13 +15,37 @@ URL参数
 ===========
 
 也叫URL query,是一个最复杂,最容易被忽视,最容易被妥协的问题.他是网站运营中必不可少的元素,如果简单的去除,其他部门就无法工作了.
-除了静态化的话题,URL参数经常被用于以下几方面:
+静态化是的话题,URL参数经常被用于以下几方面:
 
-1. 同一个实体的不同状态展示,比如同一个酒店,在不同时间点会有不同的房间库存. http://www.travel.com/hotel/123/?checkindate=2015-06-09&checkoutdate=2015-06-10
-1. 为了统计不同渠道的流量, 例如 http://www.a.com/?tracking=website_a
-1. 为了统计不同渠道,具体模块的点击量, 例如 http://www.a.com/?tracking=website_a&click_spot=zone_abc
-1. 调试, 例如 http://www.a.com/product/?item=123&debug=true
-1. 全世界最奇葩的是亚马逊,居然把统计参数放到了路径中,例如 http://www.amazon.cn/abc/dp/B005TZHJEQ/ref=lp_2130608051_1_1
+同一个实体的不同状态展示,比如同一个酒店,在不同时间点会有不同的房间库存.
+
+```
+http://www.travel.com/hotel/123/?checkindate=2015-06-09&checkoutdate=2015-06-10
+```
+
+为了统计不同渠道的流量
+
+```
+http://www.a.com/?tracking=website_a
+```
+
+为了统计不同渠道,具体模块的点击量
+
+```
+http://www.a.com/?tracking=website_a&click_spot=zone_abc
+```
+
+调试
+
+```
+http://www.a.com/product/item123/?debug=true
+```
+
+全世界最奇葩的是亚马逊,居然把统计参数放到了路径中
+
+```
+http://www.amazon.cn/abc/dp/B005TZHJEQ/ref=lp_2130608051_1_1
+```
 
 出现这种问题的坏处有几点:
 
@@ -43,11 +67,24 @@ URL参数
 
 有人可能会想到,根据ua判断,如果是搜索引擎爬虫,就用跳转的方式去掉URL参数.但效率最高的方法必然是从一开始就不展示错误URL的机会.那么前面的例子优化后就变成了:
 
-1. http://www.travel.com/hotel/123/#checkindate=2015-06-09&checkoutdate=2015-06-10
-1. http://www.a.com/#tracking=website_a
-1. http://www.a.com/#tracking=website_a&click_spot=zone_abc
-1. http://www.amazon.cn/abc/dp/B005TZHJEQ/#ref=lp_2130608051_1_1
-1. http://www.a.com/product/item123/#debug=true
+```
+http://www.travel.com/hotel/123/#checkindate=2015-06-09&checkoutdate=2015-06-10
+```
+
+```
+http://www.a.com/#tracking=website_a
+```
+
+```
+http://www.a.com/#tracking=website_a&click_spot=zone_abc
+```
+
+```http://www.amazon.cn/abc/dp/B005TZHJEQ/#ref=lp_2130608051_1_1
+```
+
+```
+http://www.a.com/product/item123/#debug=true
+```
 
 其实我们的竞争对手早就使用这种方式了,但是由于我们的开发效率无法及时实现,还没有赶上行业的进度.所以对于一般的小网站,一定要考虑开发成本,不要轻易冒进.只要能避免问题的发生,变通的方法是很多的.
 
@@ -80,14 +117,25 @@ http://www.a.com/Shangrila_International_Hotel-12345678-hotel/
 
 那么这样一个URL先后变成过:
 
-* http://www.a.com/Shangrila_International_Hotel-12345678-hotel/
-* http://www.a.com/Xianggelila_International_Hotel-12345678-hotel/
-* http://www.a.com/XiangGeLiLa_International_Hotel-12345678-hotel/
-* http://www.a.com/Shangrila_guoji_Hotel-12345678-hotel/
-* 暂不赘述,惨不忍睹
+```
+http://www.a.com/Shangrila_International_Hotel-12345678-hotel/
+http://www.a.com/Xianggelila_International_Hotel-12345678-hotel/
+http://www.a.com/XiangGeLiLa_International_Hotel-12345678-hotel/
+http://www.a.com/Shangrila_guoji_Hotel-12345678-hotel/
+```
 
-跟"相关性"比,URL的唯一性和稳定性更重要.所以针对这个问题,URL的最佳策略应该是http://www.a.com/hotel/12345678/
-如果这个id是隶属于一个分类下的,比如城市,那么就可以http://www.a.com/hotel/beijing/123/
+跟"相关性"比,URL的唯一性和稳定性更重要.所以针对这个问题,URL的最佳策略应该是
+
+```
+http://www.a.com/hotel/12345678/
+```
+
+如果这个id是隶属于一个分类下的,比如城市,那么就可以
+
+```
+http://www.a.com/hotel/beijing/123/
+```
+
 从技术角度说, id一般是数据库的primary key,可以是数字也可以是字符串,那么这个时候URL是一维的; id也可以是联合的唯一索引,那么URL就是二维的,就像上面的(bejing,123)缺一不可.电商类网站列表页经常用到三维以上.
 
 大小写
@@ -95,9 +143,11 @@ http://www.a.com/Shangrila_International_Hotel-12345678-hotel/
 
 如果网站的技术架构用的是开源系统,一般是不会有这个问题的.如果使用了微软的技术架构,这个问题非常常见.
 
-* http://www.a.com/newyork/
-* http://www.a.com/Newyork/
-* http://www.a.com/NewYork/
+```
+http://www.a.com/newyork/
+http://www.a.com/Newyork/
+http://www.a.com/NewYork/
+```
 
 我的建议是统一使用小写,大写自动跳转为小写(小心301死循环!).
 
@@ -106,14 +156,18 @@ http://www.a.com/Shangrila_International_Hotel-12345678-hotel/
 
 很多网站同时存在这样的URL,无形中把收录量扩大了一倍.
 
-* http://www.a.com/product/123
-* http://www.a.com/product/123/
+```
+http://www.a.com/product/123
+http://www.a.com/product/123/
+```
 
 上边第一个路径的意思是在product目录下有一个123文件.第二个路径的意思是在product目录下有一个123目录,这个目录下可能有很多文件,但是他代表众多文件中的index.html或index.php或default.aspx等优先级最高的那个文件.为了避免歧义,我定义文件都是用".html"结尾的.
 
 为了减少重复收录,那么按我的习惯是:
 
+```
 http://www.a.com/product/123  => http://www.a.com/product/123/
+```
 
 总结
 ============

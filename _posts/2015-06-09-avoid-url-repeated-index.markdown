@@ -56,13 +56,17 @@ URL参数
 
 很多网站仿照亚马逊的做法,把商品名体现在URL中,然后再通过id来决定页面展示的内容:
 
+```
 http://www.amazon.cn/博集典藏馆043•基督山伯爵-亚历山大·仲马/dp/B005TZHJEQ/
+```
 
 这样虽然可以提高一些相关性,但是很危险.在长期甚至短期的时间内,大量商品的名称是非常可能有变化的,那么URL也就跟着变化.成本也是非常高的,因为加大了技术实现难度,不管从站内还是站外,每次增加链接都是一个很麻烦的事情.
 
 在我接手艺龙SEO之前,URL被全部改成了这样,对我早期的工作造成了非常巨大的负担:
 
+```
 http://www.a.com/Shangrila_International_Hotel-12345678-hotel/
+```
 
 通过日志分析发现基本所有的百度蜘蛛发起的请求都被301跳转了一次(日志分析方法可以参考我另一篇文章[SEO健康度](/seo-specs/)
 
@@ -91,9 +95,9 @@ http://www.a.com/Shangrila_International_Hotel-12345678-hotel/
 
 如果网站的技术架构用的是开源系统,一般是不会有这个问题的.如果使用了微软的技术架构,这个问题非常常见.
 
-http://www.a.com/newyork/
-http://www.a.com/Newyork/
-http://www.a.com/NewYork/
+* http://www.a.com/newyork/
+* http://www.a.com/Newyork/
+* http://www.a.com/NewYork/
 
 我的建议是统一使用小写,大写自动跳转为小写(小心301死循环!).
 

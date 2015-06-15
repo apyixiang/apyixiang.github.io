@@ -12,13 +12,13 @@ tags: [SEO]
 
 在百度举办的活动上，有不少的站长会向百度工作人员提出一些根本无法回答的问题：
 
-1. 收录掉了，怎么办?
-2. 抓取掉了，怎么办?
-3. 流量掉了，怎么办?
-4. 排名掉了，怎么办?
-5. 收录不及时，怎么办?
+1. 收录掉了，怎么办？
+2. 抓取掉了，怎么办？
+3. 流量掉了，怎么办？
+4. 排名掉了，怎么办？
+5. 收录不及时，怎么办？
 
-这些问题太笼统了，即使把百度所有后台数据完全开放，也无法解答。提问的人肯定是连网站的基本结构都没有清晰的认识。好的问题是怎样的?耐心看完就有答案了。
+这些问题太笼统了，即使把百度所有后台数据完全开放，也无法解答。提问的人肯定是连网站的基本结构都没有清晰的认识。好的问题是怎样的？耐心看完就有答案了。
 
 本篇文章的意义之二，产品改版对SEO造成毁灭性打击
 =================
@@ -40,14 +40,14 @@ SEO最严重的问题，往往不是SEO问题，而是产品问题，或技术�
 
 1. http://www.a.com/product(category)/
 2. http://www.a.com/product.html/
-3. http://www.a.com/product/?channel=123&category=abc&brand=def&tracking=other_website
+3. http://www.a.com/product/？channel=123&category=abc&brand=def&tracking=other_website
 
 更不要提SEO的其他基本规范了。也就是说，事实上除了SEO没有人关心这些东西，每个开发环节都可能遗漏或者搞错一些东西。
 
 曾经有一个产品，本来谷歌收录量达到了3000万，百度收录2000万，流量也不错，精力挪到别的产品上去了。 过了1个月发现流量有所下滑，以为是季节因素，没有在意，又过了2个月，流量下降非常多。仔细检查了一下发现一个惊人的变化。
 
 1. 本来收录的地址是http://www.a.com/product/item100.html。
-2. 在没有被告知的情况下，被技术同事加了一个301跳转，到http://www.a.com/search/?product=a&item=100。
+2. 在没有被告知的情况下，被技术同事加了一个301跳转，到http://www.a.com/search/？product=a&item=100。
 3. 其中/search/目录在robots.txt中是Disallow的。
 4. 在随后的2周内，收录量最低降到了300万左右。
 
@@ -96,12 +96,12 @@ SEO最严重的问题，往往不是SEO问题，而是产品问题，或技术�
 
 从产品，开发，测试的角度看URL可能是这样无序的：
 
-*   www.example.com/channel/?category=abc&brand=xyz&tracking=other_website
-*   www.example.com/channel/?item=12345
+*   www.example.com/channel/？category=abc&brand=xyz&tracking=other_website
+*   www.example.com/channel/？item=12345
 
 如果下一版改成这样也没问题的：
 
-www.example.com/?channel=123&category=abc&brand=def&tracking=other_website
+www.example.com/？channel=123&category=abc&brand=def&tracking=other_website
 
 如果没有清晰的规则定义，几乎是无法知道现在的网站还是不是你优化过的那个样子的。
 根据SEO内容思维导图，我们得到如下的元信息表格(仅列出几个字段给大家参考)：

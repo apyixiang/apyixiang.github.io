@@ -167,6 +167,8 @@ http://www.a.com/product/123/
 
 ```
 http://www.a.com/product/123  => http://www.a.com/product/123/
+或者
+http://www.a.com/product/123  => http://www.a.com/product/123.html
 ```
 
 总结

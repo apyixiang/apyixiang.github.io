@@ -4,7 +4,7 @@ title: "百度蜘蛛（Baiduspider）的referrer"
 date: 2015-06-23 14:02
 comments: true
 categories: seo
-tags: [SEO,referrer]
+tags: [SEO,referrer,spider,baidu]
 ---
 
 

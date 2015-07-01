@@ -29,7 +29,7 @@ Email客户端:
 
 软件商店:
 
-* [迅雷Thunder Store](http://mac.xunlei.com) 
+* [迅雷Thunder Store](http://mac.xunlei.com)
 
 解压缩:
 
@@ -55,7 +55,7 @@ Email客户端:
 
 游戏:
 
-* [炉石传说](http://us.battle.net/hearthstone/) 
+* [炉石传说](http://us.battle.net/hearthstone/)
 * [HON](https://www.heroesofnewerth.com/)
 
 新浪微博客户端:
@@ -102,6 +102,10 @@ git管理:
 
 * [github for mac](http://mac.github.com)
 
+hosts文件管理:
+
+* https://github.com/2ndalpha/gasmask
+
 markdown编辑:
 
 * [作业部落](http://www.zybuluo.com) (支持redkarpet格式, 与github基本一致)
@@ -121,7 +125,7 @@ blog搭建:
 
 FTP/SFTP:
 
-* [sshfs](http://fuse.sourceforge.net/sshfs.html) 
+* [sshfs](http://fuse.sourceforge.net/sshfs.html)
 
 ```bash
 brew install sshfs

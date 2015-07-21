@@ -52,7 +52,10 @@ iis请在这里勾选“cs(Referer)”：
 ![iis-log-1]({{ site.url }}/images/iis-log-1.png)
 ![iis-log-2]({{ site.url }}/images/iis-log-2.png)
 
-apache请参考[apache的log配置](http://httpd.apache.org/docs/2.2/logs.html)“Combined Log Format”章节
+apache请参考:
+
+* [apache log配置](http://www.t086.com/code/apache2.2/logs.html)“Combined Log Format”章节
+* [apache log配置的官方链接](http://httpd.apache.org/docs/2.2/logs.html)
 
 ```
 LogFormat "%h %l %u %t \"%r\" %>s %b \"%{Referer}i\" \"%{User-agent}i\"" combined
@@ -60,7 +63,10 @@ CustomLog log/access_log combined
 ```
 
 
-Nginx请参考[nginx的log配置](http://wiki.nginx.org/NginxHttpLogModule#log_format)
+Nginx请参考：
+
+* [nginx log配置](http://who0168.blog.51cto.com/253401/569615)
+* [nginx log配置的官方链接](http://wiki.nginx.org/NginxHttpLogModule#log_format)
 
 ```
 log_format combined '$remote_addr - $remote_user [$time_local]  '

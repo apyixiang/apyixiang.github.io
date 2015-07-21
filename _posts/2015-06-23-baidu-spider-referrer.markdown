@@ -13,6 +13,17 @@ tags: [SEO,referer,spider,baidu]
 
 百度蜘蛛的referer，是指当百度蜘蛛访问网站某一个URL的时候，在HTTP头中标识的referer字段。请注意，这个定义和百度最近声明去除referer中关键词数据没有任何关系。
 
+举个例子，如果百度蜘蛛抓取百度首页的logo，会发起如下的HTTP请求：
+
+```
+GET /img/bd_logo1.png HTTP/1.1
+Host: www.baidu.com
+Connection: keep-alive
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html
+```
+
 目前发现的只有当百度抓取一个URL的同时，又抓取了页面中的：img、js和css才会带上referer字段。这部分额外的抓取量，应该不会占用百度分配的抓取配额，属于“买1送1”。
 
 对于站长的意义
@@ -49,7 +60,6 @@ CustomLog log/access_log combined
 ```
 
 
-
 Nginx请参考[nginx的log配置](http://wiki.nginx.org/NginxHttpLogModule#log_format)
 
 ```
@@ -61,6 +71,6 @@ log_format combined '$remote_addr - $remote_user [$time_local]  '
 结束语
 -----------
 
-* 很多SEO问题并不是立即致命的，所以没有及时解决，流量就像蚂蚁啃大象一样一点一点啃掉了。
+* 很多SEO问题并不是立即致命的，所以没有及时解决。流量就像蚂蚁啃大象一样一点一点啃掉了。
 * 系统性的知识积累还是会在关键时刻发挥作用的。
 * 感谢飞鹰对本文的修正。

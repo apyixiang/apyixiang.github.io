@@ -11,9 +11,7 @@ tags: [SEO,referer,spider,baidu]
 什么是百度蜘蛛的referer
 ------------------
 
-百度蜘蛛的referer，是指当百度蜘蛛访问网站某一个URL的时候，在HTTP头中标识的referer字段。请注意，这个定义和百度最近声明去除referer中关键词数据没有任何关系。这次讲的是spider发起的HTTP请求，百度而去除的是用户发起的。
-
-举个例子，如果百度蜘蛛抓取百度首页的logo，会发起如下的HTTP请求：
+百度蜘蛛的referer，是指当百度蜘蛛抓取某一个URL的时候，在HTTP头中带的Referer字段。请注意，这个定义和百度最近声明去除Referer中关键词数据没有任何关系。这次讲的是spider发起的HTTP请求，百度而去除的是用户发起的。如果百度蜘蛛抓取百度首页的logo，会发起这样的请求：
 
 ```
 GET /img/bd_logo1.png HTTP/1.1
@@ -22,9 +20,10 @@ Connection: keep-alive
 Cache-Control: max-age=0
 Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
 User-Agent: Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html
+Referer: https://www.baidu.com/
 ```
 
-目前发现的只有当百度抓取一个URL的同时，又抓取了页面中的：img、js和css才会带上referer字段。这部分额外的抓取量，应该不会占用百度分配的抓取配额，属于“买1送1”。
+上面Referer字段很明确的表示了他是从www.baidu.com这个页面上发现并抓取了www.baidu.com/img/bd_logo1.png。而大家在服务器访问日志中也应该能看到相应的记录。目前发现只有当百度抓取一个网页的同时，又抓取了网页中的：img、js和css才会带上referer字段。这部分额外的抓取量，应该不会占用百度分配的抓取配额，属于“买1送1”。
 
 对于站长的意义
 ---------------

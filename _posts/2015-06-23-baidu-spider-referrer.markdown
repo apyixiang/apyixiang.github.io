@@ -11,7 +11,7 @@ tags: [SEO,referer,spider,baidu]
 什么是百度蜘蛛的referer
 ------------------
 
-百度蜘蛛的referer，是指当百度蜘蛛访问网站某一个URL的时候，在HTTP头中标识的referer字段。请注意，这个定义和百度最近声明去除referer中关键词数据没有任何关系。
+百度蜘蛛的referer，是指当百度蜘蛛访问网站某一个URL的时候，在HTTP头中标识的referer字段。请注意，这个定义和百度最近声明去除referer中关键词数据没有任何关系。这次讲的是spider发起的HTTP请求，百度而去除的是用户发起的。
 
 举个例子，如果百度蜘蛛抓取百度首页的logo，会发起如下的HTTP请求：
 

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "百度蜘蛛（Baiduspider）的referer"
-date: 2015-06-23 14:02
+title: "SEO API（如何实现SEO元素的定制化和需求分离）"
+date: 2015-08-12 14:02
 comments: true
 categories: seo
 tags: [SEO,API]

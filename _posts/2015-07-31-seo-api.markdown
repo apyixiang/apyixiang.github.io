@@ -40,8 +40,8 @@ title: 【花冠和卡罗拉哪个好？】发动机、油耗、空间等对比_
 
 但是从百度指数上看“花冠和卡罗拉的区别”指数不错，而“花冠和卡罗拉哪个好”，却没有记录。
 
-![“花冠和卡罗拉的区别”的百度指数](/images/car_title_baidu_query.jpg)
-![“花冠和卡罗拉哪个好”的百度指数](/images/car_title_baidu_query2.png)
+![“花冠和卡罗拉的区别”的百度指数]({{ site.url }}/images/car_title_baidu_query.jpg)
+![“花冠和卡罗拉哪个好”的百度指数]({{ site.url }}/images/car_title_baidu_query2.png)
 
 那么这个页面的title应该被定制为：
 

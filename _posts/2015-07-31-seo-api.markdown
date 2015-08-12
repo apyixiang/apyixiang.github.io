@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "SEO API（如何实现SEO元素的定制化和需求分离）"
+title: "SEO PUSH API（如何实现SEO元素的定制化和需求分离）"
 date: 2015-08-12 14:02
 comments: true
 categories: seo
@@ -11,7 +11,7 @@ tags: [SEO,API]
 一般的大网站会划分产品，运营，销售，营销，研发等部门。其中几乎所有职能部门都会给研发部提需求，排期，上线，改BUG。营销中的SEO往往是被排在优先级靠后的位置，SEO的需求实现很慢，而出了BUG也比较靠后才会修复。为了解决这个问题，我提出一个“SEO PUSH API”的概念。
 相信很多公司已经这么做了，比如的友情链接管理（全站每个页面都不同，不是说首页的），TDK的单独定制。我所描述的这个API，无非是将所有SEO需求都综合到一起了，没什么难理解的。
 
-![SEO API]({{ site.url }}/images/seo_api.png)
+![SEO PUSH API]({{ site.url }}/images/seo_api.png)
 
 好处有三点：
 ==========

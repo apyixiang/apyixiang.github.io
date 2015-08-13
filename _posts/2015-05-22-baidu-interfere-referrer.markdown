@@ -29,7 +29,7 @@ referrer事件技术细节
 ----------------------
 取消referrer从技术角度看影响的是web服务器访问日志中的referrer字段,意思是访问来源.
 
-![referrer逻辑展示]({{ site.url }}/images/baidu-referrer.png)
+![referrer逻辑展示](/images/baidu-referrer.png)
 一般情况下它是由用户点击链接的行为触发的,由浏览器实际执行.用户搜索"复仇者联盟"并点击一个A网站(如图上2所示)的搜索结果, 那么A网站的访问日志中一定会新增一条记录,并且referrer是(如图上1所示):
 
 ```html

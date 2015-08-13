@@ -39,7 +39,7 @@ Referer: https://www.baidu.com/
 /\d{6}/\d{2}/.+
 ```
 
-![日志统计中的404]({{ site.url }}/images/baiduspider_referrer.png)
+![日志统计中的404](/images/baiduspider_referrer.png)
 
 从发现问题至今过了1个月，查遍整个网站我也没找到入口。今天偶然仔细查了一下日志，想起了百度蜘蛛的referer，马上就能定位问题了。这些404的URL来自于一套没人维护也没人关注的页面（往往是这样）。收录流量都不错。由于最近公司图片系统更新，图片的URL全部更改了，但这套页面并没有跟着更新。
 
@@ -48,8 +48,8 @@ Referer: https://www.baidu.com/
 
 iis请在这里勾选“cs(Referer)”：
 
-![iis-log-1]({{ site.url }}/images/iis-log-1.png)
-![iis-log-2]({{ site.url }}/images/iis-log-2.png)
+![iis-log-1](/images/iis-log-1.png)
+![iis-log-2](/images/iis-log-2.png)
 
 apache请参考:
 

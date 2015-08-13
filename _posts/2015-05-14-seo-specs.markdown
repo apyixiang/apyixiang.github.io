@@ -67,10 +67,10 @@ SEO最严重的问题，往往不是SEO问题，而是产品问题，或技术�
 ##内容思维导图
 
 从产品的角度看是这样由各类功能组成的，有合理流程关系的(流程不展开讨论)，符合用户体验的，但可能不符合搜索引擎体验：
-![产品思维导图]({{ site.url }}/images/seo-specs-pm-mindmap.png)
+![产品思维导图](/images/seo-specs-pm-mindmap.png)
 
 从SEO的角度看，网站的结构是这样由各类用户搜索需求组成的，也是有合理层级关系的：
-![SEO内容思维导图]({{ site.url }}/images/seo-specs-mindmap.png)
+![SEO内容思维导图](/images/seo-specs-mindmap.png)
 不同的网站会有截然不同的思维导图，因为他可能基本取决于技术架构。因此建议SEO从业者深入了解网站的技术架构之后再来绘制导图。具体的细节暂不展开。但是最起码自己要保证这几点：
 
 1. 网站有哪些内容节点
@@ -105,7 +105,7 @@ www.example.com/？channel=123&category=abc&brand=def&tracking=other_website
 
 如果没有清晰的规则定义，几乎是无法知道现在的网站还是不是你优化过的那个样子的。
 根据SEO内容思维导图，我们得到如下的元信息表格(仅列出几个字段给大家参考)：
-![元信息]({{ site.url }}/images/seo-specs-pattern.png)
+![元信息](/images/seo-specs-pattern.png)
 
 ##页面单元测试
 
@@ -129,6 +129,6 @@ testing环境中，是为了给研发人员做类似TDD(测试驱动开发)用�
 1.   response code 200的访问中60%的请求都不是SEO需要的URL。
 
 附图仅展示一些字段给大家做参考
-![蜘蛛日志监控报告]({{ site.url }}/images/seo-specs-log.png)
+![蜘蛛日志监控报告](/images/seo-specs-log.png)
 
 针对本文开头的问题，比较靠谱的提问方式是， “我的某某pattern页面每天抓取量多少，其中response200的有多少，平均响应时间是多少，主要的内容，SEO元素都正常，没有作弊的行为，但是这个pattern最近抓取掉了，收录掉了”。 其实能问这种问题的人，也基本不用提这类问题了。大多数的问题只要足够细化，就已经迎刃而解了。

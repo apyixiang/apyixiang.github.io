@@ -1,4 +1,4 @@
-title:            seoaqua's blog
+title:            yyx's blog
 description:      'about SEO,Ruby,Linux,Mac and stuff'
 disqus_shortname: #seoaqua
 #Your site's domain goes here. Leave localhost server or blank when working locally.
@@ -7,7 +7,7 @@ url:              http://apyixiang.github.io
 
 # Owner/author information
 owner:
-  name:           Charles Liu
+  name:           William Yao
   avatar:         avatar.jpg
   bio:            'SEO Director /SEM Tech Director in elong.com, Ruby programmer, MVT junior manager, Hadoop statistics junior programmer'
   email:          553784520@qq.com
@@ -37,16 +37,11 @@ bing_verify:
 links:
   - title: tags
     url: /tags/
-  - title: my github projects
-    url: http://github.com/seoaqua/
     external: true
-  - title: my team's github projects
-    url: http://github.com/warriors-of-the-night/
+  - title: 我的GitHub
+    url: http://github.com/CRAZYFAKE/
     external: true
-  - title: my douban
-    url: http://www.douban.com/people/seoaqua/
-    external: true
-  - title: my weibo
+  - title: 我的微博
     url: http://www.weibo.com/u/3240479372/home?wvr=5
     external: true
 

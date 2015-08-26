@@ -46,8 +46,9 @@
 		<li>
 			<a href="#">Posts</a>
 			<ul class="dl-submenu">
-				<li><a href="/archive/">All Posts</a></li>
-				<li><a href="/tags/">All Tags</a></li>
+				<li><a href="/archive/">文章</a></li>
+				<li><a href="/tags/">标签</a></li>
+				<li><a href="/archivesyear/">归档</a></li>
 			</ul>
 		</li>
 		{% for link in site.links %}<li>{% if link.external %}<a href="{{ link.url }}">{{ link.title }}</a>{% else %}<a href="{{ link.url }}">{{ link.title }}</a>{% endif %}</li>{% endfor %}

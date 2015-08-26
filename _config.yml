@@ -10,7 +10,7 @@ owner:
   name:           Charles Liu
   avatar:         avatar.jpg
   bio:            'SEO Director /SEM Tech Director in elong.com, Ruby programmer, MVT junior manager, Hadoop statistics junior programmer'
-  email:          seoaqua@qq.com
+  email:          553784520@qq.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:
   facebook:
@@ -47,7 +47,7 @@ links:
     url: http://www.douban.com/people/seoaqua/
     external: true
   - title: my weibo
-    url: http://weibo.com/seoaqua/
+    url: http://www.weibo.com/u/3240479372/home?wvr=5
     external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones

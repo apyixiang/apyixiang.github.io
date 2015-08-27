@@ -1,10 +1,9 @@
-
 ---
 layout: post
 title: "Java集合类简单总结"
 date: 2015-08-27 19:28
 comments: true
-categories: work
+categories: dev
 tags: [java]
 ---
 一、java.util.Map，四个实现类分别是HashMap、HashTable、LinkedHashMap和TreeMap。

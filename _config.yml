@@ -35,13 +35,13 @@ bing_verify:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: tags
+  - title: Tags
     url: /tags/
     external: true
-  - title: 我的GitHub
+  - title: GitHub
     url: http://github.com/CRAZYFAKE/
     external: true
-  - title: 我的微博
+  - title: WeiBo
     url: http://www.weibo.com/u/3240479372/home?wvr=5
     external: true
 

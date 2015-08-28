@@ -1,0 +1,19 @@
+---
+layout: post
+title: "常用Sql语句"
+date: 2015-08-28 10:33
+comments: true
+categories: dev
+tags: [sql]
+---
+1.创建数据库
+
+```sql
+CREATE DATABASE dbname
+```
+
+2.删除数据库
+
+```sql
+DROP DATABASE dbname
+```

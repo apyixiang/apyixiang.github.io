@@ -23,8 +23,8 @@ tags: [android,process]
 ```
 
 其意思概括来说就是，进行重要性是相对来说的，重要性等级分为5种，前台进程，可见进程，服务进程，后台进程和空进程。并且这个值越小，它的重要程度越大。下面来简单介绍一些这5种进程：
-1.前台进程：
 
+1.前台进程：
 ```java 
         /**
          * Constant for {@link #importance}: this process is running the

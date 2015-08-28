@@ -6,6 +6,7 @@ comments: true
 categories: dev
 tags: [android]
 ---
+
 1，调web浏览器  
 Uri myBlogUri = Uri.parse(" http://xxxxx.com ");  
 returnIt = new Intent(Intent.ACTION_VIEW, myBlogUri);  

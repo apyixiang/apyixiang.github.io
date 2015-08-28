@@ -7,6 +7,7 @@ categories: dev
 tags: [android]
 ---
 
+Android Uri位于android.net包下
 1，调web浏览器  
 Uri myBlogUri = Uri.parse(" http://xxxxx.com ");  
 returnIt = new Intent(Intent.ACTION_VIEW, myBlogUri);  

@@ -9,7 +9,7 @@ tags: [android,process]
 
 前言『Android进程中有许多需要学习的地方，在这里简单介绍一下进程重要性等级的一些知识』
 下面是关于进程属性importance的介绍
-==================
+
 ```java
         /**
          * The relative importance level that the system places on this
@@ -23,9 +23,9 @@ tags: [android,process]
 ```
 
 其意思概括来说就是，进行重要性是相对来说的，重要性等级分为5种，前台进程，可见进程，服务进程，后台进程和空进程。并且这个值越小，它的重要程度越大。下面来简单介绍一些这5种进程：
-==================
+
 1.前台进程：
-==================
+
 ```java 
         /**
          * Constant for {@link #importance}: this process is running the
@@ -37,6 +37,7 @@ tags: [android,process]
 屏幕上显示的进程。我们最不希望结束的进行就是前台进行，所以它的importance最小。
 
 2.可见进程：
+
 ```java 
         /**
          * Constant for {@link #importance}: this process is running something
@@ -81,6 +82,7 @@ tags: [android,process]
 没有任何东西在内运行的进程，有些程序，比如BTE，在程序退出后，依然会在进程中驻留一个空进程，这个进程里没有任何数据在运行，作用往往是提高该程序下次的启动速度或者记录程序的一些历史信息。 这部分进程无疑是应该最先终止的。
 
 6.在官方文档中还给出了三种进行的importance值，分别为：可触摸到的、可保存状态和不存在的进程(搞不懂这个是用来干什么的)
+
 ```java 
         /**
          * Constant for {@link #importance}: this process is running something

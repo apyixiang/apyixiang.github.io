@@ -10,7 +10,7 @@ tags: [android,process]
 前言『Android进程中有许多需要学习的地方，在这里简单介绍一下进程重要性等级的一些知识』
 下面是关于进程属性importance的介绍
 ```java
-        /**
+/**
          * The relative importance level that the system places on this
          * process.  May be one of {@link #IMPORTANCE_FOREGROUND},
          * {@link #IMPORTANCE_VISIBLE}, {@link #IMPORTANCE_SERVICE},

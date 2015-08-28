@@ -6,9 +6,10 @@ comments: true
 categories: dev
 tags: [android,process]
 ---
-##Android 进程重要等级
+
 前言『Android进程中有许多需要学习的地方，在这里简单介绍一下进程重要性等级的一些知识』
 下面是关于进程属性importance的介绍
+
 ```java
 /**
          * The relative importance level that the system places on this
@@ -20,8 +21,10 @@ tags: [android,process]
          */
         public int importance;
 ```
+
 其意思概括来说就是，进行重要性是相对来说的，重要性等级分为5种，前台进程，可见进程，服务进程，后台进程和空进程。并且这个值越小，它的重要程度越大。下面来简单介绍一些这5种进程：
 1.前台进程：
+
 ```java 
         /**
          * Constant for {@link #importance}: this process is running the
@@ -30,6 +33,7 @@ tags: [android,process]
          */
         public static final int IMPORTANCE_FOREGROUND = 100;
 ```
+
 屏幕上显示的进程。我们最不希望结束的进行就是前台进行，所以它的importance最小。
 2.可见进程：
 ```java 

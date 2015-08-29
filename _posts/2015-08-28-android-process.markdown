@@ -38,10 +38,15 @@ tags: [android,process]
 ```
 屏幕上显示的进程。我们最不希望结束的进行就是前台进行，所以它的importance最小。
 下面让我们来看一下官方给出的前台进程的例子：
+
         It hosts an Activity that the user is interacting with (the Activity's onResume() method has been called).
+        
         It hosts a Service that's bound to the activity that the user is interacting with.
+        
         It hosts a Service that's running "in the foreground"—the service has called startForeground().
+        
         It hosts a Service that's executing one of its lifecycle callbacks (onCreate(), onStart(), or onDestroy()).
+        
         It hosts a BroadcastReceiver that's executing its onReceive() method.
 2.可见进程：
 
@@ -56,7 +61,9 @@ tags: [android,process]
 ```
 可见进程是一些不在前台，但用户依然可见的进程，举个例来说：widget、输入法等，都属于visible。这部分进程虽然不在前台，但与我们的使用也密切相关，我们也不希望它们被终止（你肯定不希望时钟、天气，新闻等widget被终止，那它们将无法同步，你也不希望输入法被终止，否则你每次输入时都需要重新启动输入法）
 官方文档例子：
+
         It hosts an Activity that is not in the foreground, but is still visible to the user (its onPause() method has been          called). This might occur, for example, if the foreground activity started a dialog, which allows the previous               activity to be seen behind it.
+        
         It hosts a Service that's bound to a visible (or foreground) activity.
 
 3.服务进程：分为主要服务、次要服务

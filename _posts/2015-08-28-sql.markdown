@@ -6,6 +6,25 @@ comments: true
 categories: dev
 tags: [sql]
 ---
+在W3School网站上看到，可以把SQL语句分为两部分：数据操作语言 (DML) 和 数据定义语言 (DDL)。
+
+查询和更新指令构成了 SQL 的 DML 部分：
+
+- SELECT - 从数据库表中获取数据
+- UPDATE - 更新数据库表中的数据
+- DELETE - 从数据库表中删除数据
+- INSERT INTO - 向数据库表中插入数据
+
+SQL 中最重要的 DDL 语句:
+
+- CREATE DATABASE - 创建新数据库
+- ALTER DATABASE - 修改数据库
+- CREATE TABLE - 创建新表
+- ALTER TABLE - 变更（改变）数据库表
+- DROP TABLE - 删除表
+- CREATE INDEX - 创建索引（搜索键）
+- DROP INDEX - 删除索引
+
 1.创建数据库
 
 ```sql
@@ -17,3 +36,141 @@ CREATE DATABASE dbname
 ```sql
 DROP DATABASE dbname
 ```
+
+3.SELECT 语句
+
+用于从列表中选取数据，结果被存储在一个结果表中。语法如下：
+
+```sql
+SELECE 列名 FROM 表名  or SELECT * FROM 表名
+```
+
+4.DISTINCT 语句
+
+关键词 DISTINCT 用于返回唯一不同的值。
+
+在表中，可能会包含重复值。这并不成问题，不过，有时您也许希望仅仅列出不同（distinct）的值。也就是俗话说的去重。
+
+```sql
+SELECT DISTINCT 列名 FROM 表名
+```
+
+5.WHERE 语句
+
+有条件地从表中选取数据，可把WHERE语句添加到SELECT中。语法：
+
+```sql
+SELECT 列名 FROM 表名 WHERE 列 运算符 值
+```
+
+在用在WHERE语句中的运算符：
+
+| 操作符     | 描述      |
+| --------- | ------------- |
+|=          | 等于      |
+| <>        | 不等于    |
+|>          | 大于      |
+|<          | 小于      |
+| >=        | 大于等于  |
+| <=        | 小于等于  |
+|BETWEEN    | 在某个范围之间 |
+|LIKE       | 搜索某种模式 |
+
+5.AND和OR
+
+用于基于一个以上的条件对记录进行过滤。
+
+AND 和 OR 可在 WHERE 子语句中把两个或多个条件结合起来。
+
+如果第一个条件和第二个条件都成立，则 AND 运算符显示一条记录。
+
+如果第一个条件和第二个条件中只要有一个成立，则 OR 运算符显示一条记录。
+
+6.ORDER BY 语句
+
+用于对结果进行排序。
+
+ORDER BY 语句用于根据指定的列对结果集进行排序。
+
+ORDER BY 语句默认按照升序（ASC）排序。如果希望降序排序的话，可以使用 DESC 关键字。
+
+7.INSERT INTO 语句
+
+用于向表中插入新行。
+
+语法：
+
+```sql
+INSERT INTO 表名称 VALUES (值1, 值2,....)
+```
+
+我们也可以指定所要插入数据的列：
+
+```sql
+INSERT INTO table_name (列1, 列2,...) VALUES (值1, 值2,....)
+```
+
+8.UPDATE 语句
+
+用于修改表中的数据。
+
+语法:
+
+```sql
+UPDATE 表名 SET 列名 = 新值 WHERE 列名 = 某值
+```
+
+9.DELETE 语句
+
+用于删除表中的行。
+
+语法：
+
+```sql
+DELETE FROM 表名 WHERE 列名 = 值
+```
+
+删除所有行：
+
+```sql
+DELETE * FROM table_name or  DELETE FROM table_name
+```
+
+10.LIKE 操作符
+
+用于在 WHERE 子句中搜索列中的指定模式。
+
+语法：
+
+```sql
+SELECT column_name(s)
+FROM table_name
+WHERE column_name LIKE pattern
+```
+
+LIKE的几种模式：
+
+- 'A_Z': 所有以 'A' 起头，另一个任何值的字，且以 'Z' 为结尾的字串。 'ABZ' 和 'A2Z' 都符合这一个模式，而 'AKKZ' 并不符合 (因为在 A 和 Z 之间有两个字，而不是一个字)。
+
+- 'ABC%': 所有以 'ABC' 起头的字串。举例来说，'ABCD' 和 'ABCABC' 都符合这个套式。
+
+- '%XYZ': 所有以 'XYZ' 结尾的字串。举例来说，'WXYZ' 和 'ZZXYZ' 都符合这个套式。
+
+- '%AN%': 所有含有 'AN' 这个套式的字串。举例来说， 'LOS ANGELES' 和 'SAN FRANCISCO' 都符合这个套式。
+
+11.IN 操作符
+
+允许我们再WHERE子句中规定多个值。
+
+语法：
+
+```sql
+SELECT column_name(s)
+FROM table_name
+WHERE column_name IN(value1,value2,...)
+```
+
+12.JOIN 
+
+用于根据两个或多个表中的列之间的关系，从这些表中查询数据。
+

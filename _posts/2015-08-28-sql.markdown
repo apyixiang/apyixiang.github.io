@@ -174,3 +174,15 @@ WHERE column_name IN(value1,value2,...)
 
 用于根据两个或多个表中的列之间的关系，从这些表中查询数据。
 
+
+<script type="text/javascript">
+  var duoshuoQuery = {short_name:"apyixiang"};
+  (function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = '//apyixiang.github.io/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0] 
+    || document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();
+</script>

@@ -9,20 +9,40 @@ tags: [android]
 
 Android Uri位于android.net包下
 1，调web浏览器  
+
+```java
 Uri myBlogUri = Uri.parse(" http://xxxxx.com ");  
 returnIt = new Intent(Intent.ACTION_VIEW, myBlogUri);  
+```
+
 2，地图  
+
+```java
 Uri mapUri = Uri.parse("geo:38.899533,-77.036476");  
-returnIt = new Intent(Intent.ACTION_VIEW, mapUri);  
+returnIt = new Intent(Intent.ACTION_VIEW, mapUri); 
+```
+ 
 3，调拨打电话界面  
+
+```java
 Uri telUri = Uri.parse("tel:100861");  
 returnIt = new Intent(Intent.ACTION_DIAL, telUri);  
+```
+
 4，直接拨打电话  
+
+```java
 Uri callUri = Uri.parse("tel:100861");  
-returnIt = new Intent(Intent.ACTION_CALL, callUri);  
+returnIt = new Intent(Intent.ACTION_CALL, callUri);
+```
+  
 5，卸载  
+
+```java
 Uri uninstallUri = Uri.fromParts("package", "xxx", null);  
-returnIt = new Intent(Intent.ACTION_DELETE, uninstallUri);  
+returnIt = new Intent(Intent.ACTION_DELETE, uninstallUri);
+```
+  
 6，安装  
 Uri installUri = Uri.fromParts("package", "xxx", null);  
 returnIt = new Intent(Intent.ACTION_PACKAGE_ADDED, installUri);  

@@ -76,7 +76,7 @@ SELECT 列名 FROM 表名 WHERE 列 运算符 值
 |BETWEEN    | 在某个范围之间 |
 |LIKE       | 搜索某种模式 |
 
-![sql-like](/image/sql-like.png)
+![sql-like](/images/sql-like.png)
 
 5.AND和OR
 

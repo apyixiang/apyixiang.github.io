@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /about/
-title: 关于我
-tags: [SEO, SEM, MVT, Ruby, Hadoop, Analysis, Linux, Mac]
+title: About Me
+tags: [android, java, Hadoop, Analysis , Mac]
 image:
   feature: abstract-5.jpg
 share: true

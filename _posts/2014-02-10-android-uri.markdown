@@ -8,6 +8,7 @@ tags: [android]
 ---
 
 Android Uri位于android.net包下
+
 1，调web浏览器  
 
 ```java

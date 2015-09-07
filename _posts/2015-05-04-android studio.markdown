@@ -4,7 +4,7 @@ title: "Android Studio配置文件"
 date: 2015-05-04 14:27
 comments: true
 categories: dev
-tags: [Android]
+tags: [android]
 ---
 ```java
 defaultConfig {

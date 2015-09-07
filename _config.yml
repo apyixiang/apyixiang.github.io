@@ -35,7 +35,7 @@ bing_verify:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: Tags
+  - title: 标签
     url: /tags/
     external: true
   - title: GitHub

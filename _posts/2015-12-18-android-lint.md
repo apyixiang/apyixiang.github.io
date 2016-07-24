@@ -1,3 +1,11 @@
+---
+layout: post
+title: "[Android Lint] "XXXX" is not translated in "en" (English), "zh" (Chinese)"
+date: 2015-12-18 11:25:20
+comments: true
+categories: dev
+tags: [android,lint]
+---
 **1.出现问题：**
 今天打包具有双语的Android工程，在引用中报了一个莫名其妙的错误，如下图：![问题出现](http://upload-images.jianshu.io/upload_images/1346485-9f5db7fa9ddc3794?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)也就是说在打包导出的时候有错误，再来看一下错误，
 

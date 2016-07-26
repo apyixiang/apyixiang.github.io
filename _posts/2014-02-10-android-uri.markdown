@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Android Uri的用途"
-data: 2014-02-10 15:35
+date: 2014-02-10 15:35
 comments: true
 categories: dev
 tags: [android]

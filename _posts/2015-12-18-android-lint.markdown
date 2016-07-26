@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Android Lint] XXXX is not translated in en (English),zh (Chinese)"
-data: 2015-12-18 11:25:20
+date: 2015-12-18 11:25
 comments: true
 categories: dev
 tags: [android,lint]
